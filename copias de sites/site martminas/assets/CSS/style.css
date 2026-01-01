@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0c8f4a;
+    color: #fff;
+}
+
+/* TOPO */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #ffffff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search input {
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 128, 0, 0.456);
+}
+
+.btn-red {
+    background: #e21d2c;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MENU */
+.menu {
+    background: #0f7c3f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu li {
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.menu li:hover {
+    transform: scale(1.08);
+    color: #ffd966; /* opcional: muda a cor no hover */
+}
+
+
+/* HERO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0c8f4a;
+    color: #fff;
+}
+
+/* TOPO */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #ffffff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search input {
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+.btn-red {
+    background: #e21d2c;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MENU */
+.menu {
+    background: #0f7c3f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+/* HERO */
+.hero {
+    width: 100%;
+    height: 600px; /* pode ajustar */
+    background-image: url("../IMAGENS/mart\ minas.webp"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.encarte {
+    background: #f2f2f2;
+    padding: 80px 0 120px;
+    text-align: center;
+    position: relative;
+}
+
+/* Título com linhas */
+.encarte-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.encarte-title .line {
+    width: 180px;
+    height: 6px;
+    background: #1aa54b;
+    border-radius: 20px;
+}
+
+.encarte-title .title-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #d11212;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.encarte-title .icon {
+    background: #1aa54b;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* CARD CENTRAL */
+.encarte-card {
+    position: relative;
+    display: inline-block;
+    background: #0c8f4a;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.encarte-card img {
+    width: 260px;
+    border-radius: 12px;
+}
+
+.btn-ver {
+    display: inline-block;
+    margin-top: 20px;
+    background: #1fb14a;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform .2s ease;
+}
+
+.btn-ver:hover {
+    transform: scale(1.05);
+}

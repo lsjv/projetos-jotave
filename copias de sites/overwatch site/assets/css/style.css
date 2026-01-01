@@ -1,0 +1,122 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #f4f4f4;
+}
+
+.navbar {
+    margin: 2rem auto;
+    width: 98%;
+    height: 7rem;
+    background-color: #c4c5ce;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    z-index: 10;
+    
+}
+
+/* LEFT SIDE */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+/* NAV LINKS */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links .link,
+.nav-links .dropdown,
+.nav-links .more {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    transition: 0.2s ease;
+}
+
+.nav-links .link:hover,
+.nav-links .dropdown:hover,
+.nav-links .more:hover {
+    opacity: 0.6;
+}
+
+/* RIGHT SIDE */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.icon-btn:hover {
+    opacity: 1;
+}
+
+/* PLAY BUTTON */
+.play-btn {
+    background: #f37021;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.play-btn:hover {
+    background: #d95d13;
+}
+
+.video {
+  position: fixed; /* fica paradão atrás */
+  top: 0;
+  left: 0;
+ 
+  object-fit: cover; /* preenche bonitinho */
+  z-index: -1; /* vai pra trás */
+
+
+}
+ .hero-play{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    font-size: 2rem;
+    z-index: 4;
+    padding: 8rem 2rem;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+    
+ }
+
+ 
